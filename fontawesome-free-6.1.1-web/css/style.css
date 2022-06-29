@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+menu{
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 15em;
+    border: grey solid 1px;
+    padding: 15px;
+}
+
+.box-d {
+    display: flex;
+    justify-content: space-between;
+    width: 15em;
+    border: grey solid 1px;
+    padding: 15px;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.box-d img {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.box-chat {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 15em;
+    border: grey solid 1px;
+    padding: 15px;
+    height: 30px;
+}
+
+.box i {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.networking{
+text-align: center;
+flex-direction: column;
+padding: 200px;
+font-size: x-large;
+margin-left: 150px;
+}
+
+.networking img{
+    width: 60%;
+}
